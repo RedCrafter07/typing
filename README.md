@@ -4,18 +4,9 @@
 **IMPORTANT:** This library is using jQuery. You can download it [here](https://jquery.com/download/)
 
 ## Including the library
+You have to include the library at the bottom of your html file.
 
 ```html
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Typing</title>
-  </head>
-  <body>
-    <!-- Your Content goes here -->
-    
     <!-- Include Scripts -->
     <!-- jQuery first -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
@@ -25,7 +16,28 @@
     <script>
       
     </script>
-  </body>
-  </html>
 ```
 
+## Syntax
+Typing
+```js
+let text = "Test",
+  time = 100,
+  selector = ".typed",
+  typingBar = true;
+typing.type(text, time, selector,typingBar, () => {
+  console.log("Callback!");
+});
+```
+
+Deleting
+```
+let time = 50,
+  selector = ".typed",
+  typingBar = true;
+typing.delete(time, selector, typingBar, () => {
+  console.log("Callback!");
+});
+```
+
+If you use this library, I would appreciate a little shoutout :)
