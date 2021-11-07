@@ -42,4 +42,5 @@ typing.delete(time, selector, typingBar, () => {
 });
 ```
 
+## Small Notice
 If you use this library, I would appreciate a little shoutout :)
