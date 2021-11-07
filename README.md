@@ -33,7 +33,7 @@ typing.type(text, time, selector,typingBar, () => {
 ```
 
 Deleting
-```
+```js
 let time = 50,
   selector = ".typed",
   typingBar = true;
