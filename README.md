@@ -23,20 +23,13 @@ You have to include the library at the bottom of your html file.
 ## Syntax
 Typing
 ```js
-let text = "Test",
-  time = 100,
-  selector = ".typed",
-  typingBar = true;
-typing.type(text, time, selector,typingBar, () => {
+typing.type(text, time, selector, typingBar, () => {
   console.log("Callback!");
 });
 ```
 
 Deleting
 ```js
-let time = 50,
-  selector = ".typed",
-  typingBar = true;
 typing.delete(time, selector, typingBar, () => {
   console.log("Callback!");
 });
