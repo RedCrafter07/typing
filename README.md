@@ -11,9 +11,7 @@ You have to include the library at the bottom of your html file.
     <!-- jQuery first -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
     <!-- Then typing -->
-    <script src="https://cdn.redcrafter07.de/typing.js"></script>
-    <!-- Alternative CDN -->
-    <script src="https://ghcdn.rawgit.org/RedCrafter07/typing/main/typing.js"></script>
+    <script src="https://rawcdn.rawgit.net/RedCrafter07/typing/652b416bfaa7b2f096349c85ede40e2885fd37fb/typing.js"></script>
     <!-- Then include your script. -->
     <script>
       
